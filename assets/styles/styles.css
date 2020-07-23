@@ -1,0 +1,20 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+*	{
+	text-decoration:none;
+	padding:0;
+	margin:0;
+	outline:none;
+	font-family: 'Proxima Nova Regular';
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style:none;
+}
+:root{
+    --navyBlue: #00023e;
+    --black :#000000;
+    --orange:#ff4600;
+    --darkBlue:#242e3a;
+    --lightAsh:#e1e1e1;
+    --white:#ffffff;
+}
