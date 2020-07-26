@@ -75,24 +75,25 @@
     
  }
  .child-container{
-    flex:0 0 0;
+    flex:0 0 60%;
+    align-self: center;
  }
- .card-content{
-    margin: 2em 5em;
- }
+ 
  .intro-text{
-font-size: 3.1em;
+position: relative;
+font-size: 3.0em;
 font-weight: bold;
 color: white;
-align-self: center;
-padding: 1em;
+text-align: center;
+padding:  0 0em;
  }
  .below-text{
     font-size: 14px;
     margin: 2em 0;
+    padding: 1em 15em;
     color: white;
     text-align: center;
-    padding: 0 12em;
+    
  }
  .primary-btn{
     position: relative;
@@ -160,6 +161,7 @@ padding: 2em 5em;
     font-size: 14px;
     padding: 1em 0;
     color: white;
+    opacity: 0.5;
 }
 .stay-prod-container{
     position: relative;

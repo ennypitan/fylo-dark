@@ -1,4 +1,45 @@
 @media screen and (max-width: 480px) and (min-width: 320px)	{
+    .main-nav{
+        padding: 1em 2em;
+    }
+    .nav-bar li{
+        padding-left: 1em;
+        
+    }
+    .child-container{
+        flex:0 0 100%;
+     }
+     .card-content img{
+         height: 10em;
+         width: 100%;
+         padding: 0 2em;
+     }
+     .card-content{
+        margin: 0em 0em;
+     }
+     .intro-text{
+        font-size: 1.7em;
+        padding: 1em 1em;
+        
+         }
+    .below-text{
+        margin: 0em 0;
+        padding: 1em 5em;
+            
+         }
+         .primary-btn{
+            padding: 15px 70px;
+            margin-top: 1em;
+        }
+        
+    .middle-card{
+         flex:0 0 100%;
+         margin: 0 2em;     
+    }
+    .icon-text{
+        font-size: 1.2em;
+        
+    }
 }   
 @media screen and (max-width: 760px) and (min-width: 481px) 	{
 
