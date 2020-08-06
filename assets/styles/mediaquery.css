@@ -1,10 +1,20 @@
 @media screen and (max-width: 480px) and (min-width: 320px)	{
     .main-nav{
-        padding: 1em 2em;
+        padding: 1em 1em;
     }
     .nav-bar li{
         padding-left: 1em;
         
+    }
+    .bg-curvy{
+        display: none;
+        bottom: 0;
+        position: relative;
+        width: 100%;
+        height: 12em;
+        background-image: url("../images/bg-curvy-mobile.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .child-container{
         flex:0 0 100%;
@@ -40,8 +50,251 @@
         font-size: 1.2em;
         
     }
+    /*****Stay Productive Section****/
+    .stay-prod-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .stay-prod-card{
+        flex:1 0 ;  
+    }
+    .stay-prod-content img{
+        width:100% ;
+    }
+    .stay-inrto-text{
+        font-size: 1em;
+    }
+    /********Overlapping Box Section********/
+.box{
+    width: 90%;
+    height: 18em;
+    top: 200em;
+}
+.box-content{
+    padding: 1em;
+}
+.sub-box-text{
+    padding: 1.5em 1em;
+}
+.form-box{
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+input{
+    width: 16.5em;
+    margin-bottom: 1em;  
+}
+.footer-btn{
+    margin-left: 0em;
+}
+/********Review Section********/
+.review-wrapper{
+    width: 100%;
+    background-color: #181e2a;
+    padding-bottom: 8em;
+
+}
+.review-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 4.3em 2em;
+}
+.review-card{
+    position: relative;
+    flex:1 0 100%;
+    margin: 1em;
+}
+/***************Footer Section**************/
+.footer-container{
+
+    margin-bottom: 5em;
+    
+  }
+  .footer-row{
+    margin-top: 3em;
+   
+  }
+  .footer-card{
+    position: relative;
+    flex:0 0 70%;
+  }
+  .footer-logo    {
+   
+    margin: 2em 1em;
+  }
+  
+  .card-content{
+    margin: 0em 0em;
+    padding: 1em 1em;
+  }
+  .social-container{
+    padding: 1em 1em;
+  }
+  
+  
+  .footer-link-wrapper {
+   flex-direction: column;
+   flex-wrap: nowrap;
+  
+   
+  }
+  .footer-link li{
+    padding: .5em;
+   }
+   .footer-link li a{
+   color: white;
+   text-decoration: none;
+   }
 }   
 @media screen and (max-width: 760px) and (min-width: 481px) 	{
+    .main-nav{
+        padding: 1em 1em;
+    }
+    .nav-bar li{
+        padding-left: 1em;
+        
+    }
+    .bg-curvy{
+        display: none;
+        bottom: 0;
+        position: relative;
+        width: 100%;
+        height: 12em;
+        background-image: url("../images/bg-curvy-mobile.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .child-container{
+        flex:0 0 100%;
+     }
+     .card-content img{
+         height: 10em;
+         width: 100%;
+         padding: 0 2em;
+     }
+     .card-content{
+        margin: 0em 0em;
+     }
+     .intro-text{
+        font-size: 1.7em;
+        padding: 1em 1em;
+        
+         }
+    .below-text{
+        margin: 0em 0;
+        padding: 1em 5em;
+            
+         }
+         .primary-btn{
+            padding: 15px 70px;
+            margin-top: 1em;
+        }
+        
+    .middle-card{
+         flex:0 0 100%;
+         margin: 0 2em;     
+    }
+    .icon-text{
+        font-size: 1.2em;
+        
+    }
+    /*****Stay Productive Section****/
+    .stay-prod-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .stay-prod-card{
+        flex:1 0 ;  
+    }
+    .stay-prod-content img{
+        width:100% ;
+    }
+    .stay-inrto-text{
+        font-size: 1em;
+    }
+    /********Overlapping Box Section********/
+.box{
+    width: 90%;
+    height: 18em;
+    top: 200em;
+}
+.box-content{
+    padding: 1em;
+}
+.sub-box-text{
+    padding: 1.5em 1em;
+}
+.form-box{
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+input{
+    width: 16.5em;
+    margin-bottom: 1em;  
+}
+.footer-btn{
+    margin-left: 0em;
+}
+/********Review Section********/
+.review-wrapper{
+    width: 100%;
+    background-color: #181e2a;
+    padding-bottom: 8em;
+
+}
+.review-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 4.3em 2em;
+}
+.review-card{
+    position: relative;
+    flex:1 0 100%;
+    margin: 1em;
+}
+/***************Footer Section**************/
+.footer-container{
+
+    margin-bottom: 5em;
+    
+  }
+  .footer-row{
+    margin-top: 3em;
+   
+  }
+  .footer-card{
+    position: relative;
+    flex:0 0 70%;
+  }
+  .footer-logo    {
+   
+    margin: 2em 1em;
+  }
+  
+  .card-content{
+    margin: 0em 0em;
+    padding: 1em 1em;
+  }
+  .social-container{
+    padding: 1em 1em;
+  }
+  
+  
+  .footer-link-wrapper {
+   flex-direction: column;
+   flex-wrap: nowrap;
+  
+   
+  }
+  .footer-link li{
+    padding: .5em;
+   }
+   .footer-link li a{
+   color: white;
+   text-decoration: none;
+   }
 
 }
 
