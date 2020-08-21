@@ -169,7 +169,7 @@ input{
         flex:0 0 100%;
      }
      .card-content img{
-         height: 10em;
+         height: 20em;
          width: 100%;
          padding: 0 2em;
      }
@@ -195,6 +195,9 @@ input{
          flex:0 0 100%;
          margin: 0 2em;     
     }
+    .middle-content{
+        padding: 0 15em;
+    }
     .icon-text{
         font-size: 1.2em;
         
@@ -217,7 +220,7 @@ input{
 .box{
     width: 90%;
     height: 18em;
-    top: 200em;
+    top: 190em;
 }
 .box-content{
     padding: 1em;
